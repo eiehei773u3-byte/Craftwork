@@ -1,0 +1,35 @@
+# === Сборка C++ (Build Directories) ===
+build/
+bin/
+out/
+cmake-build-*/
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# === Кэш вашего движка и промежуточные файлы (ВАЖНО) ===
+cache/
+decompiled/
+temp/
+logs/
+*.cpp.cache
+
+# === Скачанные исходники и сторонние моды (Оригиналы пользователей) ===
+/mods_input/
+/*.jar
+
+# === Файлы IDE и редакторов ===
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+
+# === Системные файлы ===
+.DS_Store
+Thumbs.db
