@@ -44,6 +44,7 @@ void ensureConsole() {
 int main() {
     printf("\n");
     ensureConsole();
+    Root Root("Craftwork", 800, 600);
 
 
     return 0;
