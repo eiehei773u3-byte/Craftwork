@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Craftwork.dir/link.d CMakeFiles/Craftwork.dir/src/Core/Root.cpp.o CMakeFiles/Craftwork.dir/src/Core/Main.cpp.o CMakeFiles/Craftwork.dir/src/Core/Console/Console.cpp.o -o Craftwork  -lSDL2 -lGLEW -lGL -lX11 -lGLU -lOpenGL -lGL -lX11 -lGLU -lOpenGL

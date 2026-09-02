@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(Craftwork LANGUAGES CXX)
+project(Craftwork VERSION 0.0.4 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,8 +10,8 @@ pkg_check_modules(GLEW REQUIRED glew)
 
 add_executable(Craftwork
     src/Core/Root.cpp
-    src/Core/main.cpp
-    src/Core/Conncole/main.cpp
+    src/Core/Main.cpp
+    src/Core/Console/Console.cpp
 )
 
 target_include_directories(Craftwork PRIVATE
@@ -25,3 +25,5 @@ target_link_libraries(Craftwork PRIVATE
     ${GLEW_LIBRARIES}
     GL
 )
+
+target_compile_definitions(Craftwork PRIVATE VERSION="${Craftwork_VERSION}")

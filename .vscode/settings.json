@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd $workspaceRoot && cmake -B build && cmake --build build && ./build/Craftwork"
+    }
+}

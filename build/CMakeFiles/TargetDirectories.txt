@@ -1,0 +1,3 @@
+/home/yt6441/Desktop/progect/Game/Craftwork/build/CMakeFiles/Craftwork.dir
+/home/yt6441/Desktop/progect/Game/Craftwork/build/CMakeFiles/edit_cache.dir
+/home/yt6441/Desktop/progect/Game/Craftwork/build/CMakeFiles/rebuild_cache.dir
