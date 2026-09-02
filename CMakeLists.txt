@@ -11,6 +11,7 @@ pkg_check_modules(GLEW REQUIRED glew)
 add_executable(Craftwork
     src/Core/Root.cpp
     src/Core/main.cpp
+    src/Core/Conncole/main.cpp
 )
 
 target_include_directories(Craftwork PRIVATE
