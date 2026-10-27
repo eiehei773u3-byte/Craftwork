@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bjglvgifcline"]
+
+[node name="Control" type="Control" unique_id=899930810]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=63750642]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.9788721, 0.38393655, 0, 1)
+
+[node name="menu" type="ColorRect" parent="ColorRect" unique_id=369589272]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.24700001
+anchor_bottom = 1.0
+offset_right = 0.45599365
